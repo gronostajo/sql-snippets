@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-RETURN @${1:variable}
+RETURN @${1:@IDENTITY}
 ]]></content>
 	<tabTrigger>ret</tabTrigger>
 	<scope>source.sql</scope>

@@ -3,7 +3,7 @@
 -- ${1:procedure_name}
 -- ${2:Procedure description}
 CREATE PROCEDURE ${1}
-	@${3:params}
+	@${3:Param} ${4:int}
 AS
 BEGIN
 
