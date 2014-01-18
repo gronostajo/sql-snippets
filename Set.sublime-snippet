@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SET @${1:variable} = ${2:value}
+]]></content>
+	<tabTrigger>set</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

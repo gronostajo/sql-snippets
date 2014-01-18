@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+INSERT INTO ${1:table} (${2:fields...})
+	VALUES (${3:values...})
+]]></content>
+	<tabTrigger>ins</tabTrigger>
+	<tabTrigger>insert</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

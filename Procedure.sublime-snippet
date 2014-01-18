@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+-- ${1:procedure_name}
+-- ${2:Procedure description}
+CREATE PROCEDURE ${1}
+	@${3:params}
+AS
+BEGIN
+
+END
+GO
+
+]]></content>
+	<tabTrigger>proc</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

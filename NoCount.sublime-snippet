@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+SET NOCOUNT ${1:ON}
+]]></content>
+	<tabTrigger>noc</tabTrigger>
+	<tabTrigger>nocount</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

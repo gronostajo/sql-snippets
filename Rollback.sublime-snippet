@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ROLLBACK ${1:TRANSACTION}
+]]></content>
+	<tabTrigger>roll</tabTrigger>
+	<tabTrigger>rbk</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

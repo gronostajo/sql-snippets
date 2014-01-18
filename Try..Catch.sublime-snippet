@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+BEGIN TRY
+	${1:-- unsafe code}
+END TRY
+BEGIN CATCH
+	DECLARE @ERROR as varchar(127);
+	SET @ERROR = (SELECT ERROR_MESSAGE() AS error_message);
+	RAISERROR('${2:An error occurred.} %s', ${3:16}, ${4:1}, @ERROR);
+END CATCH
+]]></content>
+	<tabTrigger>try</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

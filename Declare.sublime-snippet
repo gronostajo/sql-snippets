@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+DECLARE @${1:variable} AS ${2:type}
+]]></content>
+	<tabTrigger>decl</tabTrigger>
+	<tabTrigger>declare</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

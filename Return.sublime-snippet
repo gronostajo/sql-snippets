@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+RETURN @${1:variable}
+]]></content>
+	<tabTrigger>ret</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>
