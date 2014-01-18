@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+IS NOT NULL
+]]></content>
+	<tabTrigger>nnul</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>
