@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+SELECT ${1:*} FROM ${2:Table}
+]]></content>
+	<tabTrigger>sel</tabTrigger>
+	<tabTrigger>select</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

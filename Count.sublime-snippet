@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SELECT COUNT(*) FROM ${1:Table}
+]]></content>
+	<tabTrigger>count</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>
