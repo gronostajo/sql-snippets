@@ -3,7 +3,7 @@
 -- Trigger ${1:trigger_name}
 -- ${2:Trigger description}
 CREATE TRIGGER ${1} ON ${3:Table}
-	${4:FOR} (${5:INSERT, UPDATE})
+	${4:FOR} ${5:INSERT, UPDATE}
 }
 AS
 BEGIN
