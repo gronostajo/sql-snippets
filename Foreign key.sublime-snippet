@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+FOREIGN KEY REFERENCES ${1:Table}(${2:Field})
+]]></content>
+	<tabTrigger>fk</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

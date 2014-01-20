@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+FETCH NEXT FROM @${1:Cursor} INTO @${2:variable};
+]]></content>
+	<tabTrigger>fetch</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

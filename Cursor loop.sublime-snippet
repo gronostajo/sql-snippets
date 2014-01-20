@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+SET @${1:Cursor} = CURSOR FOR
+	SELECT ${2:Column}
+	FROM ${3:Table}
+	WHERE ${4:condition}
+
+OPEN @${1}
+FETCH NEXT FROM @${1} INTO @${5:variable}
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	${6:-- code}
+	FETCH NEXT FROM @${1} INTO @${5}
+END
+]]></content>
+	<tabTrigger>curloop</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

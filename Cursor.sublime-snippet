@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+DECLARE @${1:Cursor} AS cursor
+DECLARE @${2:ID} AS ${3:int}
+
+SET @${1} = CURSOR FOR
+	SELECT ${4:Column}
+	FROM ${5:Table}
+	WHERE ${6:condition}
+
+OPEN @${1}
+FETCH NEXT FROM @${1} INTO @${2}
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	${7:-- code}
+	FETCH NEXT FROM @${1} INTO @${2}
+END
+]]></content>
+	<tabTrigger>cur</tabTrigger>
+	<tabTrigger>cursor</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

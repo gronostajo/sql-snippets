@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+IF ${1:condition}
+BEGIN
+	RAISERROR('${2:An error occured.}', ${3:16}, ${4:1});
+	ROLLBACK ${5:TRANSACTION};
+END
+]]></content>
+	<tabTrigger>ifr</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

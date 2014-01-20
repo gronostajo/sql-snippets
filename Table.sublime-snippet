@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-- Table ${1:TableName}
+-- Dependencies: ${2:AnotherTable}
+CREATE TABLE ${1} (
+	${3:SomeID} int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	${4:-- some fields...}
+)
+]]></content>
+	<tabTrigger>table</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

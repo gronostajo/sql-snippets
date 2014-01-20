@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+CREATE FUNCTION ${1:FunctionName} (@${2:ID} ${3:int})
+	RETURNS ${4:int}
+AS
+BEGIN
+	${5:-- code}
+END
+GO
+]]></content>
+	<tabTrigger>func</tabTrigger>
+	<tabTrigger>function</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

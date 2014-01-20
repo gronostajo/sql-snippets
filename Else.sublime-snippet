@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+ELSE
+BEGIN
+	${1:-- code}
+END
+]]></content>
+	<tabTrigger>else</tabTrigger>
+	<tabTrigger>ELSE</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

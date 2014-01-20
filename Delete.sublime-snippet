@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+DELETE FROM ${1:Table} WHERE ${2:condition}
+]]></content>
+	<tabTrigger>del</tabTrigger>
+	<tabTrigger>delete</tabTrigger>
+	<tabTrigger>DEL</tabTrigger>
+	<tabTrigger>DELETE</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

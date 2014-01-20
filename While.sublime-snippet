@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+WHILE ${1:condition}
+BEGIN
+	${2:-- code}
+END
+]]></content>
+	<tabTrigger>while</tabTrigger>
+	<tabTrigger>WHILE</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

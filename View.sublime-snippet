@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-- View ${1:ViewName}
+-- ${2:View description}
+CREATE VIEW ${1}
+AS
+	${3:-- code}
+GO
+]]></content>
+	<tabTrigger>view</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

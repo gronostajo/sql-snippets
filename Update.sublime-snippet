@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+UPDATE ${1:Table}
+	SET ${2:Field} = ${3:value}
+	WHERE ${4:condition}
+]]></content>
+	<tabTrigger>upd</tabTrigger>
+	<tabTrigger>update</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>
