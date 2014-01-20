@@ -3,23 +3,21 @@
 -- Trigger ${1:trigger_name}
 -- ${2:Trigger description}
 CREATE TRIGGER ${1} ON ${3:Table}
-	${4:FOR} ${5:INSERT, UPDATE}
-}
+	${4:FOR INSERT, UPDATE}
 AS
 BEGIN
-	IF UPDATE(${6:Column})
+	IF UPDATE(${5:Column})
 	BEGIN
 		IF (SELECT COUNT(*) FROM inserted) > 1 
 		BEGIN
 			RAISERROR('Only one change can be made at a time.', 16, 1);
 			ROLLBACK TRANSACTION;
-		END 
+		END
 
 		${7:}
 	END
 END
 GO
-
 ]]></content>
 	<tabTrigger>trig</tabTrigger>
 	<tabTrigger>trigger</tabTrigger>

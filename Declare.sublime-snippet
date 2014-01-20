@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-DECLARE @${1:variable} AS ${2:type}
+DECLARE @${1:variable} AS ${2:int}
 ]]></content>
 	<tabTrigger>decl</tabTrigger>
 	<tabTrigger>declare</tabTrigger>
