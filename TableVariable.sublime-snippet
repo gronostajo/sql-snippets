@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+DECLARE @${1:TableVariable} TABLE (
+	${2:-- columns}
+)
+]]></content>
+	<tabTrigger>vartab</tabTrigger>
+	<tabTrigger>tabvar</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>
