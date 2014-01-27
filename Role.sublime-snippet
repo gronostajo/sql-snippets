@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+CREATE ROLE ${1:role}
+]]></content>
+	<tabTrigger>role</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

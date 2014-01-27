@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GRANT ${1:SELECT} ON ${2:object} TO ${3:PUBLIC}
+]]></content>
+	<tabTrigger>grant</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>
