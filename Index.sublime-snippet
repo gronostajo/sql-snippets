@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+CREATE INDEX IX_${1:name} ON ${2:Table} (${3:column})
+]]></content>
+	<tabTrigger>index</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>
